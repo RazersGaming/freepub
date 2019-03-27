@@ -1,7 +1,7 @@
 {
-  "name": "freepub-bot",
+  "name": "FreePub",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pub",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
