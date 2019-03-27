@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 
 var bot = new Discord.Client();
 
+const prefix = ("*");
+
 bot.on("ready", function() {
     bot.user.setGame("Pub, *Prefix");
     console.log("Le bot a bien ete connecter");
