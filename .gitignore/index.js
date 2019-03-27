@@ -7,4 +7,12 @@ bot.on("ready", function() {
     console.log("Le bot a bien ete connecter");
 });
 
+bot.on('message', msg => {
+    if (msg.content === prefix + "site"){
+        msg.channel.send("https://http://freepub.web.boxtoplay.com/lexpgm.000webhostapp.com/")
+        console.log("Une personne a demandé pour aller sur ton site.")
+    }
+
+});
+
 bot.login("NTYwNTA3Njc4MDExNDI0NzY5.D31BKQ.uwxaKOiQf1kmiOQmCcLMtWsZP-I");
