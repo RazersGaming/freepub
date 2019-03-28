@@ -1,15 +1,12 @@
-const Discord = require("discord.js");
-
-var bot = new Discord.Client();
-
-bot.on("ready", function() {
-    bot.user.setGame("Pub, *Prefix");
-    console.log("Le bot a bien ete connecter");
+const client = new Discord.Client();
+ 
+client.on("ready", () => {
+  console.log("I am ready!");
 });
-
-bot.on('message', message => {
-    if (message.content === 'ping') {
-    message.channel.sendMessage('pong');
+ 
+client.on("message", (message) => {
+  if (message.content.startsWith("ping")) {
+    message.channel.send("pong!");
   }
 });
 
