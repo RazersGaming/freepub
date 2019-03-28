@@ -7,4 +7,10 @@ bot.on("ready", function() {
     console.log("Le bot a bien ete connecter");
 });
 
+bot.on('message', message => {
+    if (message.content === 'ping') {
+    message.channel.sendMessage('pong');
+  }
+});
+
 bot.login("NTYwNTA3Njc4MDExNDI0NzY5.D31BKQ.uwxaKOiQf1kmiOQmCcLMtWsZP-I");
