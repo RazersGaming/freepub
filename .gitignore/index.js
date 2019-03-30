@@ -1,10 +1,19 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
+const client = new Discord.Client();
+var prefix = "*pub"
 
-var bot = new Discord.Client();
+client.login("NTYwNTA3Njc4MDExNDI0NzY5.XJ-FNw.B6NmHW9sYQSmR6Vrhsn438uN5sY");
 
-bot.on("ready", function() {
-    bot.user.setGame("Pub, *Prefix");
-    console.log("Le bot a bien ete connecter");
-});
+client.on('message' , message=>{
+    if(message.content === "*pub ping"){
+        message.reply("Pong");
+        console.log('logs');
+    }
+})
 
-bot.login("NTYwNTA3Njc4MDExNDI0NzY5.D31BKQ.uwxaKOiQf1kmiOQmCcLMtWsZP-I");
+client.on('message' , message=>{
+    if(message.content === "*pub Staff"){
+        message.reply('Fondateur : RED Kilian');
+        console.log('logs1');
+    }
+})
