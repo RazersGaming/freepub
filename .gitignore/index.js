@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*pub"
-message.channel.send(`Ton texte ${message.guild.membercount} ton texte`)
 
 client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XJ-IEA.QpEvKW01ZSAXixPQXluiuHy0gak");
 
