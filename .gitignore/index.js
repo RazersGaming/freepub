@@ -13,7 +13,7 @@ client.on('message' , message=>{
 
 client.on('message' , message=>{
     if(message.content === "*pub Staff"){
-        message.reply('Fondateur : RED Kilian');
+        message.reply('Fondateur : ajoute un staff *pub addstaff');
         console.log('logs1');
     }
 })
