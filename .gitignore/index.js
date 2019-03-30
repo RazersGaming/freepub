@@ -116,23 +116,6 @@ client.on('message' , message=>{
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
         console.log('un membre viens de faire help');
     }
 })
