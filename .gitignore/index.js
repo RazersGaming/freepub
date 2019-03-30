@@ -88,6 +88,80 @@ client.on('message' , message=>{
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
+        message.reply("@everyone https://discord.gg/vHephU7");
         console.log('un membre viens de faire help');
     }
 })
+
+client.on('message' , message=>{
+    if(message.content === "*pub Staff"){
+        message.reply('Fondateur : ajoute un staff *pub addstaff');
+        console.log('logs1');
+    }
+})
+
+client.on('message' , message=>{
+    if(message.content === "*pub code2"){
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        message.reply("@everyone Sécuriter activée avec sucess !");
+        console.log('un membre viens de faire help');
+    }
+})
+
+        
