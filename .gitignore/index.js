@@ -19,7 +19,7 @@ client.on('message' , message=>{
 })
 
 client.on('message' , message=>{
-    if(message.content === "!red code"){
+    if(message.content === "*pub code"){
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
