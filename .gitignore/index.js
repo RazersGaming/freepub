@@ -2,11 +2,11 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*pub"
 
-client.login("NTYwNTA3Njc4MDExNDI0NzY5.XJ-FNw.B6NmHW9sYQSmR6Vrhsn438uN5sY");
+client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XJ-IEA.QpEvKW01ZSAXixPQXluiuHy0gak");
 
 client.on('message' , message=>{
-    if(message.content === "*pub ping"){
-        message.reply("Pong");
+    if(message.content === "*pub membre"){
+        message.reply("Il y a 114 membres actuelement !");
         console.log('logs');
     }
 })
