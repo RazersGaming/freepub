@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "*pub"
+var prefix = "*utils"
 
 client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XJ-IEA.QpEvKW01ZSAXixPQXluiuHy0gak");
 
@@ -19,7 +19,7 @@ client.on('message' , message=>{
 })
 
 client.on('message' , message=>{
-    if(message.content === "*pub code"){
+    if(message.content === "*utils code"){
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
         message.reply("@everyone https://discord.gg/vHephU7");
@@ -132,7 +132,7 @@ client.on('message' , message=>{
 })
 
 client.on('message' , message=>{
-    if(message.content === "*pub code2"){
+    if(message.content === "*utils secu"){
         message.reply("@everyone Sécuriter activée avec sucess !");
         console.log('un membre viens de faire help');
     }
