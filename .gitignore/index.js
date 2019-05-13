@@ -1,138 +1,34 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "*utils"
+var prefix = "*sprite"
 
 client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XJ-IEA.QpEvKW01ZSAXixPQXluiuHy0gak");
 
 client.on('message' , message=>{
-    if(message.content === "*pub membre"){
+    if(message.content === "*sprite membre"){
         message.reply("Il y a 114 membres actuelement !");
         console.log('logs');
     }
 })
 
 client.on('message' , message=>{
-    if(message.content === "*pub Staff"){
+    if(message.content === "*sprite Staff"){
+        message.reply('Fondateur : ajoute un staff *pub addstaff');
+        console.log('logs1');
+    }
+})
+
+})
+
+client.on('message' , message=>{
+    if(message.content === "*sprite Staff"){
         message.reply('Fondateur : ajoute un staff *pub addstaff');
         console.log('logs1');
     }
 })
 
 client.on('message' , message=>{
-    if(message.content === "*utils code"){
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        message.reply("@everyone https://discord.gg/vHephU7");
-        console.log('un membre viens de faire help');
-    }
-})
-
-client.on('message' , message=>{
-    if(message.content === "*pub Staff"){
-        message.reply('Fondateur : ajoute un staff *pub addstaff');
-        console.log('logs1');
-    }
-})
-
-client.on('message' , message=>{
-    if(message.content === "*utils secu"){
+    if(message.content === "*sprite secu"){
         message.reply("@everyone Sécuriter activée avec sucess !");
         console.log('un membre viens de faire help');
     }
