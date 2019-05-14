@@ -1,37 +1,14 @@
-const Discord = require('discord.js');
+onst Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "*sprite"
 
-client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XNrlKw.61lLQGRfBx8yDDn2RoSVGlrpVw8");
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 
-client.on('message' , message=>{
-    if(message.content === "*sprite membre"){
-        message.reply("Il y a 114 membres actuelement !");
-        console.log('logs');
-    }
-})
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
+  }
+});
 
-client.on('message' , message=>{
-    if(message.content === "*sprite Staff"){
-        message.reply('Fondateur : ajoute un staff *pub addstaff');
-        console.log('logs1');
-    }
-})
-
-})
-
-client.on('message' , message=>{
-    if(message.content === "*sprite Staff"){
-        message.reply('Fondateur : ajoute un staff *pub addstaff');
-        console.log('logs1');
-    }
-})
-
-client.on('message' , message=>{
-    if(message.content === "*sprite secu"){
-        message.reply("@everyone Sécuriter activée avec sucess !");
-        console.log('un membre viens de faire help');
-    }
-})
-
-        
+client.login('NTYxNTY4Mzc2NzQ5Njg2Nzg0.XNrlow.4kKZAvqyqsWRzG80K-Ddse6Fq4k');
