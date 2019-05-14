@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*sprite"
 
-client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XNrHAw.ZjAWPd6uiLBQkAJGSBvvuKlwU08");
+client.login("NTYxNTY4Mzc2NzQ5Njg2Nzg0.XNrlKw.61lLQGRfBx8yDDn2RoSVGlrpVw8");
 
 client.on('message' , message=>{
     if(message.content === "*sprite membre"){
