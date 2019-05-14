@@ -11,5 +11,3 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
-client.login('token');
