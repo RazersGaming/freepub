@@ -11,33 +11,3 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
-client.on('message' , message=>{
-    if(message.content === "*sprite membre"){
-        message.reply("Il y a 114 membres actuelement !");
-        console.log('logs');
-    }
-})
-
-client.on('message' , message=>{
-    if(message.content === "*sprite Staff"){
-        message.reply('Fondateur : ajoute un staff *pub addstaff');
-        console.log('logs1');
-    }
-})
-
-})
-
-client.on('message' , message=>{
-    if(message.content === "*sprite Staff"){
-        message.reply('Fondateur : ajoute un staff *pub addstaff');
-        console.log('logs1');
-    }
-})
-
-client.on('message' , message=>{
-    if(message.content === "*sprite secu"){
-        message.reply("@everyone Sécuriter activée avec sucess !");
-        console.log('un membre viens de faire help');
-    }
-})
